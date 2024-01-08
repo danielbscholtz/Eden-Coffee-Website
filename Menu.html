@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Menu - Eden Coffee</title>
+	<link rel="icon" href="icon.png" type="image/png">
+	<link href="index.css" rel="stylesheet" />
+	<link rel="stylesheet" href="index.html">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/690b4f18ed.js" crossorigin="anonymous"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@500;600&display=swap" rel="stylesheet">
+</head>
+
+<body class="page_menu">
+	<header>
+		<nav id="menu">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="Menu.html">Menu</a></li>
+				<li><a href="#Location/Hours">Location/Hours</a></li>
+				<li><a href="#Our beans">Our beans</a></li>
+				<li><a href="#About Us">About Us</a></li>
+				<li><a href="#" id="cart"><i class="fa-solid fa-cart-shopping"></i></a></li>
+			</ul>
+		</nav>
+	</header>
+	<main id="menu-main">
+		<div id="cart-show">
+			<div class="cart-divider">
+				<div id="x">
+					<a href="#" id="close-cart"><i class="fa-solid fa-xmark"></i></a>
+					<h1>Your Cart</h1>
+				</div>
+				<div class="items"> </div>
+				<div class="div-subtotal">
+					<h2>Subtotal : <span class="cart-subtotal"> </span> </h2>
+					<button class="submit">ORDER</button>
+				</div>
+			</div>
+		</div>
+		<div id="page_menu_grid">
+			<div id="video-back-menu">
+				<video autoplay muted loop id="video_pg_menu">
+					<source src="Videos/video_pg_menu.mp4" type="video/mp4">
+				</video>
+			</div>
+			<div id="main_menu">
+				<img id="menu_logo" src="Images/menu.png">
+				<ul>
+					<li><a id="hot_drinks_get">Hot Drinks</a></li>
+					<li><a id="fresh_drinks_get">Fresh Drinks</a></li>
+					<li><a id="sandwichs_get">Sandwichs</a></li>
+					<li><a id="pastries_get">Pastries</a></li>
+				</ul>
+			</div>
+			<section id="hot_drinks">
+				<div class="menu-category-selector">
+					<div class="category">
+						<h1>Hot Drinks</h1>
+						<hr class="rounded">
+					</div>
+					<div class="item">
+						<div id="hot_drinks_item1">
+							<div class="box_img">
+								<img src="Images/filter_coffee.jpg">
+							</div>
+							<h2>Filter Coffee</h2>
+							<h4>Filtered coffee with selected premium beans. Clean and smooth flavor, with varied notes
+								according
+								to the origin and roasting of the grains. (240ml)</h4>
+							<h4>$ 2.00</h4>
+							<button class="add-item-cart" data-id="1" data-name="Filter Coffee" data-price="2.00"> Add
+								to
+								cart </button>
+						</div>
+						<div id="hot_drinks_item2">
+							<div class="box_img">
+								<img src="Images/hot_chocolate.jpg">
+							</div>
+							<h2>Hot Chocolate</h2>
+							<h4>Filtered coffee with selected premium beans. Clean and smooth flavor, with varied notes
+								according
+								to the origin and roasting of the grains. (240ml)</h4>
+							<h4>$ 3.00</h4>
+							<button class="add-item-cart" data-id="2" data-name="Hot Chocolate" data-price="3.00"> Add
+								to
+								cart </button>
+						</div>
+						<div id="hot_drinks_item3">
+							<div class="box_img">
+								<img src="Images/espresso.jpg">
+							</div>
+							<h2>Expresso</h2>
+							<h4>Filtered coffee with selected premium beans. Clean and smooth flavor, with varied notes
+								according
+								to the origin and roasting of the grains. (240ml)</h4>
+							<h4>$ 3.00</h4>
+							<button class="add-item-cart" data-id="3" data-name="Expresso" data-price="3.00"> Add to
+								cart
+							</button>
+						</div>
+						<div id="hot_drinks_item4">
+							<div class="box_img">
+								<img src="Images/cappuccino.jpg">
+							</div>
+							<h2>Cappuccino</h2>
+							<h4>Filtered coffee with selected premium beans. Clean and smooth flavor, with varied notes
+								according
+								to the origin and roasting of the grains. (240ml)</h4>
+							<h4>$ 4.00</h4>
+							<button class="add-item-cart" data-id="4" data-name="Cappuccino" data-price="4.00"> Add to
+								cart
+							</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="fresh_drinks">
+				<div class="menu-category-selector">
+					<div class="category">
+						<h1>Fresh Drinks</h1>
+						<hr class="rounded">
+					</div>
+					<div class="item">
+						<div id="fresh_drinks_item5">
+							<div class="box_img">
+								<img src="Images/matcha.jpg">
+							</div>
+							<h2>Iced Matcha</h2>
+							<h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad asperiores minus illum
+								mollitia
+								itaque.</h4>
+							<h4>$ 5.00</h4>
+							<button class="add-item-cart" data-id="5" data-name="Iced Matcha" data-price="5.00"> Add to
+								cart </button>
+						</div>
+						<div id="fresh_drinks_item6">
+							<div class="box_img">
+								<img src="Images/icedlatte.jpg">
+							</div>
+							<h2>Iced Latte</h2>
+							<h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad asperiores minus illum
+								mollitia
+								itaque.</h4>
+							<h4>$ 6.00</h4>
+							<button class="add-item-cart" data-id="6" data-name="Iced Latte" data-price="6.00"> Add to
+								cart </button>
+						</div>
+						<div id="fresh_drinks_item7">
+							<div class="box_img">
+								<img src="Images/coldbrew.jpg">
+							</div>
+							<h2>Cold Brew</h2>
+							<h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad asperiores minus illum
+								mollitia
+								itaque.</h4>
+							<h4>$ 8.00</h4>
+							<button class="add-item-cart" data-id="7" data-name="Cold Brew" data-price="8.00"> Add to
+								cart
+							</button>
+						</div>
+						<div id="fresh_drinks_item8">
+							<div class="box_img">
+								<img src="Images/nutellashake.jpg">
+							</div>
+							<h2>Nutella Shake</h2>
+							<h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad asperiores minus illum
+								mollitia
+								itaque.</h4>
+							<h4>$ 7.00</h4>
+							<button class="add-item-cart" data-id="8" data-name="Nutella Shake" data-price="7.00"> Add
+								to
+								cart
+							</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="sandwichs">
+				<div class="menu-category-selector">
+					<div class="category">
+						<h1>Sandwichs</h1>
+						<hr class="rounded">
+					</div>
+					<div class="item">
+						<div id="sandwichs_item9">
+							<div class="box_img">
+								<img src="Images/avocado.jpg">
+							</div>
+							<h2>Avocado Toast</h2>
+							<h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum voluptates mollitia
+								quaerat nam, quisquam saepe vitae repudiandae sequi magnam.</h4>
+							<h4>$ 9.00</h4>
+							<button class="add-item-cart" data-id="9" data-name="Avocado Toast" data-price="9.00"> Add
+								to
+								cart </button>
+						</div>
+						<div id="sandwichs_item10">
+							<div class="box_img">
+								<img src="Images/salmon.jpg">
+							</div>
+							<h2>Salmon Toast</h2>
+							<h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum voluptates mollitia
+								quaerat nam, quisquam saepe vitae repudiandae sequi magnam.</h4>
+							<h4>$ 12.00</h4>
+							<button class="add-item-cart" data-id="10" data-name="Salmon Toast" data-price="12.00"> Add
+								to
+								cart </button>
+						</div>
+						<div id="sandwichs_item11">
+							<div class="box_img">
+								<img src="Images/cheese.jpg">
+							</div>
+							<h2>Cheese Toast</h2>
+							<h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum voluptates mollitia
+								quaerat nam, quisquam saepe vitae repudiandae sequi magnam.</h4>
+							<h4>$ 8.00</h4>
+							<button class="add-item-cart" data-id="11" data-name="Cheese Toast" data-price="8.00"> Add to
+								cart
+							</button>
+						</div>
+						<div id="sandwichs_item12">
+							<div class="box_img">
+								<img src="Images/wrap.jpg">
+							</div>
+							<h2>Wrap</h2>
+							<h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum voluptates mollitia
+								quaerat nam, quisquam saepe vitae repudiandae sequi magnam.</h4>
+							<h4>$ 6.00</h4>
+							<button class="add-item-cart" data-id="12" data-name="Wrap" data-price="6.00"> Add to
+								cart
+							</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="pastries">
+				<div class="menu-category-selector">
+					<div class="category">
+						<h1>Pastries</h1>
+						<hr class="rounded">
+					</div>
+					<div class="item">
+						<div id="pastries_item13">
+							<div class="box_img">
+								<img src="Images/croissaint.jpg">
+							</div>
+							<h2>Croissaint</h2>
+							<h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum voluptates mollitia
+								quaerat nam, quisquam saepe vitae repudiandae sequi magnam.</h4>
+							<h4>$ 3.00</h4>
+							<button class="add-item-cart" data-id="13" data-name="Croissaint" data-price="3.00"> Add
+								to
+								cart </button>
+						</div>
+						<div id="pastries_item14">
+							<div class="box_img">
+								<img src="Images/pain.jpg">
+							</div>
+							<h2>Pain au chocolat</h2>
+							<h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum voluptates mollitia
+								quaerat nam, quisquam saepe vitae repudiandae sequi magnam.</h4>
+							<h4>$ 3.00</h4>
+							<button class="add-item-cart" data-id="14" data-name="Pain au chocolat" data-price="3.00"> Add
+								to
+								cart </button>
+						</div>
+						<div id="pastries_item15">
+							<div class="box_img">
+								<img src="Images/mufin.jpg">
+							</div>
+							<h2>Mufin</h2>
+							<h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum voluptates mollitia
+								quaerat nam, quisquam saepe vitae repudiandae sequi magnam.</h4>
+							<h4>$ 2.00</h4>
+							<button class="add-item-cart" data-id="15" data-name="Mufin" data-price="2.00"> Add to
+								cart
+							</button>
+						</div>
+						<div id="pastries_item16">
+							<div class="box_img">
+								<img src="Images/pancakes.jpg">
+							</div>
+							<h2>Pancakes</h2>
+							<h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum voluptates mollitia
+								quaerat nam, quisquam saepe vitae repudiandae sequi magnam.</h4>
+							<h4>$ 5.00</h4>
+							<button class="add-item-cart" data-id="16" data-name="Pancakes" data-price="5.00"> Add to
+								cart
+							</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<footer>
+				<img src="Images/Eden_footer.png" alt="">
+				<div id="footer2">
+					<ul>
+						<li><a href="#Home">Home</a></li>
+						<li><a href="#Menu">Menu</a></li>
+						<li><a href="#Location/Hours">Location/Hours</a></li>
+						<li><a href="#Our beans">Our beans</a></li>
+						<li><a href="#About Us">About Us</a></li>
+					</ul>
+				</div>
+				<div id="footer3">
+					<ul>
+						<li><a href="#Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+						<li><a href="#TikTok"><i class="fa-brands fa-tiktok"></i> </a></li>
+						<li><a href="#Spotify"><i class="fa-brands fa-spotify"></i></a></li>
+						<li><a href="#Phone"><i class="fa-solid fa-phone"></i></a></li>
+					</ul>
+				</div>
+			</footer>
+			<script src="index.js"></script>
+	</main>
+</body>
+
+</html>
